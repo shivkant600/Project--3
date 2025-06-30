@@ -26,6 +26,22 @@ public final class ModelFactory {
 		}
 		return mFactory;
 	}
+	
+	
+	public StockPurchaseModelInt getStockPurchaseModel() {
+		StockPurchaseModelInt stockModel = (StockPurchaseModelInt) modelCache.get("stockModel");
+		if (stockModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				stockModel = new StockPurchaseModelHibImp();
+			}
+			if ("JDBC".equals(DATABASE)) {
+				stockModel = new StockPurchaseModelHibImp();
+			}
+			modelCache.put("stockModel", stockModel);
+		}
+		return stockModel;
+	}
+	
 
 	public ProductModelInt getProductModel() {
 		ProductModelInt productModel = (ProductModelInt) modelCache.get("productModel");
