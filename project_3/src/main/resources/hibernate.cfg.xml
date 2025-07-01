@@ -50,6 +50,8 @@
 		<mapping
 			resource="in/co/rays/project_3/hbm/StockPurchaseDTO.hbm.xml" />
 
+		<mapping class="in.co.rays.project_3.dto.StockPurchaseDTO" />
+
 
 
 	</session-factory>
