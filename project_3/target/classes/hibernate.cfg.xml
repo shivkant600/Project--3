@@ -48,7 +48,7 @@
 
 
 		<mapping
-			resource="in/co/rays/project_3/dto/StockPurchaseDTO.hbm.xml" />
+			resource="in/co/rays/project_3/hbm/StockPurchaseDTO.hbm.xml" />
 
 
 
