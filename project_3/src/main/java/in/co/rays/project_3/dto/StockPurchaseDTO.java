@@ -2,6 +2,9 @@ package in.co.rays.project_3.dto;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+
+@Entity
 public class StockPurchaseDTO extends BaseDTO {
 
 	private String quantity;
