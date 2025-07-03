@@ -50,8 +50,6 @@
 		<mapping
 			resource="in/co/rays/project_3/hbm/StockPurchaseDTO.hbm.xml" />
 			
-			<mapping
-			resource="in/co/rays/project_3/dto/StockPurchaseDTO.hbm.xml" />
 
 		
 
