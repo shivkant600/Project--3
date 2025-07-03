@@ -61,7 +61,7 @@
 			%>
 			<center>
 				<h1 class="text-light font-weight-bold pt-3">
-					<font color="black"><u>Stock Purchase List</u></font>
+					<font color="black"><u>Stock Purchase List 1</u></font>
 				</h1>
 			</center>
 			<div class="row">
